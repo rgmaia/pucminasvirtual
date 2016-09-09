@@ -1,0 +1,12 @@
+1 - O arquivo WAR é no formato do eclipse( basta importar o projeto ).
+
+2 - Para que o envio de emails funcione, é necessário configurar o arquivo "mail.properties" com os dados do servidor, usuário e password de um servidor SMTP(Gratuito,Pago). 
+Para testes, foi usado uma conta pessoal no gmail. 
+***** Parametros de conexão removidos ************************
+O vídeo anexo mostra como configurar uma conta do gmail para envio de emails.
+Onde encontra-se o arquivo dentro da estrutura do projeto => Java Resources/src.
+
+3 - O acesso aos dados é feito por meio do hibernate versão 3.6, configurado por meio do arquivo "context.xml", usando DataSources.
+Onde encontra-se o arquivo dentro da estrutura do projeto => WebContent/META-INF
+
+4 - Como servidor web, foi utilizado o apache-tomcat-7.0.37 	
